@@ -1,0 +1,1619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-1">
+  <generator>Windows Inform 10.1.2</generator>
+  <item nodeId="node-1">
+    <command xml:space="preserve">floodingBasement</command>
+    <result xml:space="preserve">justKeysandRooms&#x000A;An Interactive Fiction by SenseiCanada&#x000A;Release 1 / Serial number 221111 / Inform 7 v10.1.2 / D&#x000A;&#x000A;kitchen&#x000A;The kitchen of a basement apartment. The bathroom is to the north, the living room is east, and the entrance hall is south. There is a leak coming from somewhere, you are standing in 5 cm of water. There is muffled whirring sound coming from the green bathroom door. &#x000A;&#x000A;You can see a green door, a counter and a kitchen cabinet (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-34"/>
+      <child nodeId="node-61"/>
+      <child nodeId="node-2"/>
+      <child nodeId="node-46"/>
+      <child nodeId="node-26"/>
+      <child nodeId="node-36"/>
+      <child nodeId="node-133"/>
+      <child nodeId="node-43"/>
+      <child nodeId="node-104"/>
+      <child nodeId="node-85"/>
+      <child nodeId="node-48"/>
+      <child nodeId="node-3"/>
+      <child nodeId="node-11"/>
+      <child nodeId="node-22"/>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve"> e</command>
+    <result xml:space="preserve">living room&#x000A;From one of the couches, an orange taby blearily opens one eye and stares at you reproachfully&#x000A;&#x000A;You can see a couch (on which is a cat) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">x cat</command>
+    <result xml:space="preserve">You see nothing special about the cat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">Test win with "open cabinet / take can of fish / go s / x cat".</command>
+    <result xml:space="preserve">I only understood you as far as wanting to test that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">Test "open cabinet / take can of fish / go s / x cat".</command>
+    <result xml:space="preserve">I only understood you as far as wanting to test that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">Test with "open cabinet / take can of fish / go s / x cat".</command>
+    <result xml:space="preserve">I only understood you as far as wanting to test that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">open cabinet / take can of fish / go s / x cat</command>
+    <result xml:space="preserve">I only understood you as far as wanting to open the kitchen cabinet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">"open cabinet / take can of fish / go s / x cat",</command>
+    <result xml:space="preserve">You seem to want to talk to someone, but I can't see whom.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-66"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">There is a flat can of fish in the cabinet, sardines to be exact.&#x000A;&#x000A;The water is 5 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">take fish</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;The water is 6 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">go e</command>
+    <result xml:space="preserve">living room&#x000A;From one of the couches, an orange taby blearily opens one eye and stares at you reproachfully&#x000A;&#x000A;You can see a couch (on which is a cat) here.&#x000A;&#x000A;The water is 7 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve"> x cat</command>
+    <result xml:space="preserve">Around the cat's collar dangles a silver key.&#x000A;&#x000A;The water is 8 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">ask cat for key</command>
+    <result xml:space="preserve">The cat wriggles away, preventing you from unhooking the silver key from its colar. Perhaps some food would keep it still long enough to take the key...&#x000A;&#x000A;The water is 9 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">go w</command>
+    <result xml:space="preserve">kitchen&#x000A;The kitchen of a basement appartment. The bathroom is to the north, the living room is east, and the entrance hall is south. There is muffled whirring sound coming from the green bathroom door. &#x000A;&#x000A;You can see a green door, a counter and a kitchen cabinet (empty) here.&#x000A;&#x000A;The water is 10 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">go s</command>
+    <result xml:space="preserve">entrance hall&#x000A;You can here the pounding of rain outside. From beneath the front door, cold, muddy water flows down the steps into the basement appartment. The lock on the front door is brass-colored.&#x000A;&#x000A;You can see a front door and a shelf (on which is a pocket knife) here.&#x000A;&#x000A;The water is 11 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;The water is 12 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">unlock can of fish</command>
+    <result xml:space="preserve">What do you want to unlock the can of fish with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">knife</command>
+    <result xml:space="preserve">You unlock the can of fish.&#x000A;&#x000A;The water is 13 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">x fish</command>
+    <result xml:space="preserve">You see nothing special about the can of fish.&#x000A;&#x000A;The water is 14 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-77"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">take sardines</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">(first opening the green door)&#x000A;It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">go e</command>
+    <result xml:space="preserve">living room&#x000A;From one of the couches, an orange taby blearily opens one eye and stares at you reproachfully&#x000A;&#x000A;You can see a couch (on which is a cat) here.&#x000A;&#x000A;The water is 0 feet  high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">go w</command>
+    <result xml:space="preserve">kitchen&#x000A;The kitchen of a basement appartment. The bathroom is to the north, the living room is east, and the entrance hall is south. There is muffled whirring sound coming from the green bathroom door. &#x000A;&#x000A;You can see a green door, a counter and a cabinet (closed) here.&#x000A;&#x000A;The water is 1 foot  high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">living room&#x000A;From one of the couches, an orange taby blearily opens one eye and stares at you reproachfully&#x000A;&#x000A;You can see a couch (on which is a cat) here.&#x000A;&#x000A;The water is 5 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+      <child nodeId="node-151"/>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">x livingroom</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">x living room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">living room&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-151">
+    <command xml:space="preserve">pet cat</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-152"/>
+    </children>
+  </item>
+  <item nodeId="node-152">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;The water is 9 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-153"/>
+    </children>
+  </item>
+  <item nodeId="node-153">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">kitchen&#x000A;The kitchen of a basement apartment. The bathroom is to the north, the living room is east, and the entrance hall is south. There is a leak coming from somewhere, you are standing in 13 cm of water. There is muffled whirring sound coming from the green bathroom door. &#x000A;&#x000A;You can see a green door, a counter and a kitchen cabinet (closed) here.&#x000A;&#x000A;The water is 13 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-154"/>
+    </children>
+  </item>
+  <item nodeId="node-154">
+    <command xml:space="preserve">examine room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-155"/>
+    </children>
+  </item>
+  <item nodeId="node-155">
+    <command xml:space="preserve">examine kitchen</command>
+    <result xml:space="preserve">You see nothing special about the kitchen cabinet.&#x000A;&#x000A;The water is 17 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-156"/>
+    </children>
+  </item>
+  <item nodeId="node-156">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">living room&#x000A;From one of the couches, an orange taby blearily opens one eye and stares at you reproachfully&#x000A;&#x000A;You can see a couch (on which is a cat) here.&#x000A;&#x000A;The water is 21 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-157"/>
+    </children>
+  </item>
+  <item nodeId="node-157">
+    <command xml:space="preserve">examine living room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-158"/>
+    </children>
+  </item>
+  <item nodeId="node-158">
+    <command xml:space="preserve">examine cat</command>
+    <result xml:space="preserve">Around the cat's collar dangles a silver key.&#x000A;&#x000A;The water is 25 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-159"/>
+    </children>
+  </item>
+  <item nodeId="node-159">
+    <command xml:space="preserve">take cat</command>
+    <result xml:space="preserve">I don't suppose the cat would care for that.&#x000A;&#x000A;The water is 29 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-160"/>
+    </children>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">That seems to belong to the cat.&#x000A;&#x000A;The water is 33 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-161"/>
+    </children>
+  </item>
+  <item nodeId="node-161">
+    <command xml:space="preserve">kiss cat</command>
+    <result xml:space="preserve">The cat might not like that.&#x000A;&#x000A;The water is 37 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-162"/>
+    </children>
+  </item>
+  <item nodeId="node-162">
+    <command xml:space="preserve">ask the cat for the key</command>
+    <result xml:space="preserve">The cat wriggles away, preventing you from unhooking the silver key from its colar. Perhaps some food would keep it still long enough to take the key...&#x000A;&#x000A;The water is 41 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-163"/>
+    </children>
+  </item>
+  <item nodeId="node-163">
+    <command xml:space="preserve">give cat fish</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-164"/>
+    </children>
+  </item>
+  <item nodeId="node-164">
+    <command xml:space="preserve">give cat treat</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-165"/>
+    </children>
+  </item>
+  <item nodeId="node-165">
+    <command xml:space="preserve">give cat food</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-166"/>
+    </children>
+  </item>
+  <item nodeId="node-166">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">kitchen&#x000A;The kitchen of a basement apartment. The bathroom is to the north, the living room is east, and the entrance hall is south. There is a leak coming from somewhere, you are standing in 45 cm of water. There is muffled whirring sound coming from the green bathroom door. &#x000A;&#x000A;You can see a green door, a counter and a kitchen cabinet (closed) here.&#x000A;&#x000A;The water is 45 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-167"/>
+    </children>
+  </item>
+  <item nodeId="node-167">
+    <command xml:space="preserve">find food</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-168"/>
+    </children>
+  </item>
+  <item nodeId="node-168">
+    <command xml:space="preserve">look for food</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-169"/>
+    </children>
+  </item>
+  <item nodeId="node-169">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-170"/>
+    </children>
+  </item>
+  <item nodeId="node-170">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">There is a flat can of fish in the cabinet, sardines to be exact.&#x000A;&#x000A;The water is 49 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-171"/>
+    </children>
+  </item>
+  <item nodeId="node-171">
+    <command xml:space="preserve">take fish</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;The water is 53 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-172"/>
+    </children>
+  </item>
+  <item nodeId="node-172">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">living room&#x000A;From one of the couches, an orange taby blearily opens one eye and stares at you reproachfully&#x000A;&#x000A;You can see a couch (on which is a cat) here.&#x000A;&#x000A;The water is 57 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-173"/>
+    </children>
+  </item>
+  <item nodeId="node-173">
+    <command xml:space="preserve">give cat fish</command>
+    <result xml:space="preserve">The cat doesn't seem interested.&#x000A;&#x000A;The water is 61 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-174"/>
+    </children>
+  </item>
+  <item nodeId="node-174">
+    <command xml:space="preserve">open can</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;The water is 65 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-175"/>
+    </children>
+  </item>
+  <item nodeId="node-175">
+    <command xml:space="preserve">give fish to cat</command>
+    <result xml:space="preserve">The cat doesn't seem interested.&#x000A;&#x000A;The water is 69 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-176"/>
+    </children>
+  </item>
+  <item nodeId="node-176">
+    <command xml:space="preserve">unlock can</command>
+    <result xml:space="preserve">(with the can of fish)&#x000A;That doesn't seem to fit the lock.&#x000A;&#x000A;The water is 73 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-177"/>
+    </children>
+  </item>
+  <item nodeId="node-177">
+    <command xml:space="preserve">use can opener to open can of fish</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-178"/>
+    </children>
+  </item>
+  <item nodeId="node-178">
+    <command xml:space="preserve">throw can of fish at cat</command>
+    <result xml:space="preserve">You lack the nerve when it comes to the crucial moment.&#x000A;&#x000A;The water is 77 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-179"/>
+    </children>
+  </item>
+  <item nodeId="node-179">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">kitchen&#x000A;The kitchen of a basement apartment. The bathroom is to the north, the living room is east, and the entrance hall is south. There is a leak coming from somewhere, you are standing in 81 cm of water. There is muffled whirring sound coming from the green bathroom door. &#x000A;&#x000A;You can see a green door, a counter and a kitchen cabinet (empty) here.&#x000A;&#x000A;The water is 81 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-180"/>
+    </children>
+  </item>
+  <item nodeId="node-180">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">entrance hall&#x000A;You can hear the pounding of rain outside. From beneath the front door, cold, muddy water flows down the steps into the basement ap artment. The lock on the front door is brass-colored.&#x000A;&#x000A;You can see a front door and a shelf (on which is a pocket knife) here.&#x000A;&#x000A;The water is 85 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-181"/>
+    </children>
+  </item>
+  <item nodeId="node-181">
+    <command xml:space="preserve">take pocket knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;The water is 89 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-182"/>
+    </children>
+  </item>
+  <item nodeId="node-182">
+    <command xml:space="preserve">open can with pocket knife</command>
+    <result xml:space="preserve">There are sardines in the can.&#x000A;&#x000A;The water is 93 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-183"/>
+    </children>
+  </item>
+  <item nodeId="node-183">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">kitchen&#x000A;The kitchen of a basement apartment. The bathroom is to the north, the living room is east, and the entrance hall is south. There is a leak coming from somewhere, you are standing in 97 cm of water. There is muffled whirring sound coming from the green bathroom door. &#x000A;&#x000A;You can see a green door, a counter and a kitchen cabinet (empty) here.&#x000A;&#x000A;The water is 97 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-184"/>
+    </children>
+  </item>
+  <item nodeId="node-184">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">living room&#x000A;From one of the couches, an orange taby blearily opens one eye and stares at you reproachfully&#x000A;&#x000A;You can see a couch (on which is a cat) here.&#x000A;&#x000A;You hear a faint sparking sound from the bathroom. All of a sudden a jolt of electricity courses through your bady and you collapse onto the floor. GAME OVER.&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">x cat</command>
+    <result xml:space="preserve">You see nothing special about the cat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">take key from cat</command>
+    <result xml:space="preserve">That seems to belong to the cat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">go east </command>
+    <result xml:space="preserve">living room&#x000A;From one of the couches, an orange taby blearily opens one eye and stares at you reproachfully&#x000A;&#x000A;You can see a couch (on which is a cat) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">x cat</command>
+    <result xml:space="preserve">Around the cat's collar dangles a silver key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">go s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">go kitchen</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">go w</command>
+    <result xml:space="preserve">kitchen&#x000A;You can see a green door and a counter (on which is a screwdriver) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">go s</command>
+    <result xml:space="preserve">entrance hall&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the green door)&#x000A;It seems to be locked.&#x000A;&#x000A;The water is 5 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-134"/>
+    </children>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">What do you want to unlock the green door with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-135"/>
+    </children>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve">a key</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">bust it open</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-137"/>
+    </children>
+  </item>
+  <item nodeId="node-137">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">entrance hall&#x000A;You can hear the pounding of rain outside. From beneath the front door, cold, muddy water flows down the steps into the basement appartment. The lock on the front door is brass-colored.&#x000A;&#x000A;You can see a front door and a shelf (on which is a pocket knife) here.&#x000A;&#x000A;The water is 9 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-138"/>
+    </children>
+  </item>
+  <item nodeId="node-138">
+    <command xml:space="preserve">grab pocket knife</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-139"/>
+    </children>
+  </item>
+  <item nodeId="node-139">
+    <command xml:space="preserve">take pocket knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;The water is 13 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-140"/>
+    </children>
+  </item>
+  <item nodeId="node-140">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">kitchen&#x000A;The kitchen of a basement appartment. The bathroom is to the north, the living room is east, and the entrance hall is south. There is a leak coming from somewhere, you are standing in 17 cm of water. There is muffled whirring sound coming from the green bathroom door. &#x000A;&#x000A;You can see a green door, a counter and a kitchen cabinet (closed) here.&#x000A;&#x000A;The water is 17 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-141"/>
+    </children>
+  </item>
+  <item nodeId="node-141">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the green door)&#x000A;It seems to be locked.&#x000A;&#x000A;The water is 21 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-142"/>
+    </children>
+  </item>
+  <item nodeId="node-142">
+    <command xml:space="preserve">open with pocket knife</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-143"/>
+    </children>
+  </item>
+  <item nodeId="node-143">
+    <command xml:space="preserve">use pocket knife</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-144"/>
+    </children>
+  </item>
+  <item nodeId="node-144">
+    <command xml:space="preserve">insert pocket knife</command>
+    <result xml:space="preserve">(in the pocket knife)&#x000A;You can't put something inside itself.&#x000A;&#x000A;The water is 25 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-145"/>
+    </children>
+  </item>
+  <item nodeId="node-145">
+    <command xml:space="preserve">insert pocket knife in lock</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
+  </item>
+  <item nodeId="node-146">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the pocket knife)&#x000A;That doesn't seem to fit the lock.&#x000A;&#x000A;The water is 29 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-147"/>
+    </children>
+  </item>
+  <item nodeId="node-147">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">entrance hall&#x000A;You can hear the pounding of rain outside. From beneath the front door, cold, muddy water flows down the steps into the basement appartment. The lock on the front door is brass-colored.&#x000A;&#x000A;You can see a front door and a shelf here.&#x000A;&#x000A;The water is 33 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-148"/>
+    </children>
+  </item>
+  <item nodeId="node-148">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;The water is 37 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-149"/>
+    </children>
+  </item>
+  <item nodeId="node-149">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;The water is 41 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-150"/>
+    </children>
+  </item>
+  <item nodeId="node-150">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">(first opening the front door)&#x000A;&#x000A;street&#x000A;You can see a front door here.&#x000A;&#x000A;You made it out of the locked appartment. As you wade into the flooded street you hear a faint sparking sound from the appartment. All of a sudden a jolt of electricity courses through your body and you collapse into the muddy floodwater. GAME OVER.&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">go s</command>
+    <result xml:space="preserve">entrance hall&#x000A;You can here the pounding of rain outside. From beneath the front door, cold, muddy water flows down the steps into the basement appartment.&#x000A;&#x000A;You can see a front door here.&#x000A;&#x000A;The water is 0 feet  high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">go n</command>
+    <result xml:space="preserve">kitchen&#x000A;The kitchen of a basement appartment. The bathroom is to the north, the living room is east, and the entrance hall is south.&#x000A;&#x000A;You can see a green door and a counter (on which is a screwdriver) here.&#x000A;&#x000A;The water is 1 foot  high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">go s</command>
+    <result xml:space="preserve">entrance hall&#x000A;You can here the pounding of rain outside. From beneath the front door, cold, muddy water flows down the steps into the basement appartment.&#x000A;&#x000A;You can see a front door here.&#x000A;&#x000A;The water is 2 feet  high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">go to the green door</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">go to the bathroom door</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the green door)&#x000A;It seems to be locked.&#x000A;&#x000A;The water is 5 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">go to the kitchen cabinet</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">open the kitchen cabinet</command>
+    <result xml:space="preserve">There is a flat can of fish in the cabinet, sardines to be exact.&#x000A;&#x000A;The water is 9 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">eat the sardines</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">entrance hall&#x000A;You can here the pounding of rain outside. From beneath the front door, cold, muddy water flows down the steps into the basement appartment. The lock on the front door is brass-colored.&#x000A;&#x000A;You can see a front door and a shelf (on which is a pocket knife) here.&#x000A;&#x000A;The water is 13 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">grab the pocket knife</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">take the pocket knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;The water is 17 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;The water is 21 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-114"/>
+    </children>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">kitchen&#x000A;The kitchen of a basement appartment. The bathroom is to the north, the living room is east, and the entrance hall is south. There is a leak coming from somewhere, you are standing in 25 cm of water. There is muffled whirring sound coming from the green bathroom door. &#x000A;&#x000A;You can see a green door, a counter and a kitchen cabinet (in which is a can of fish (closed)) here.&#x000A;&#x000A;The water is 25 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-115"/>
+    </children>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">open the can of fish</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;The water is 29 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">unlock the can of fish</command>
+    <result xml:space="preserve">(with the pocket knife)&#x000A;There are sardines in the can.&#x000A;&#x000A;The water is 33 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">eat the sardines</command>
+    <result xml:space="preserve">That's plainly inedible.&#x000A;&#x000A;The water is 37 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-118"/>
+    </children>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">living room&#x000A;From one of the couches, an orange taby blearily opens one eye and stares at you reproachfully&#x000A;&#x000A;You can see a couch (on which is a cat) here.&#x000A;&#x000A;The water is 41 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">feed the cat</command>
+    <result xml:space="preserve">What do you want to feed the cat?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-120"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve">sardines</command>
+    <result xml:space="preserve">The cat meows hungrily and starts to eat up the sardines from your hand. As you unhook the silver key from the collar, you hear the muffled hair dryer in the bathroom and feel the water creeping around your knees&#x000A;The water is 20 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">kitchen&#x000A;The kitchen of a basement appartment. The bathroom is to the north, the living room is east, and the entrance hall is south. There is a leak coming from somewhere, you are standing in 24 cm of water. There is muffled whirring sound coming from the green bathroom door. &#x000A;&#x000A;You can see a green door, a counter and a kitchen cabinet (in which is a can of fish (closed)) here.&#x000A;&#x000A;The water is 24 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">open the green door</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;The water is 28 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-123"/>
+    </children>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">unlock the green door</command>
+    <result xml:space="preserve">What do you want to unlock the green door with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-124"/>
+    </children>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">the silver key</command>
+    <result xml:space="preserve">You unlock the green door.&#x000A;&#x000A;The water is 32 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-125"/>
+    </children>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the green door)&#x000A;&#x000A;bathroom&#x000A;The sink is 100 cm tall. A hair dryer and a brass key rest on the sink. The hair dryer is on.&#x000A;&#x000A;You can see a green door, a sink (on which are a hair dyer and a brass key) and a hair dryer here.&#x000A;&#x000A;The water is 36 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-126"/>
+    </children>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve">unplug the hair dryer</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-127"/>
+    </children>
+  </item>
+  <item nodeId="node-127">
+    <command xml:space="preserve">turn off the hair dryer</command>
+    <result xml:space="preserve">You switch the hair dryer off.&#x000A;&#x000A;The water is 40 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-128"/>
+    </children>
+  </item>
+  <item nodeId="node-128">
+    <command xml:space="preserve">take the brass key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;The water is 44 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-129"/>
+    </children>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">kitchen&#x000A;The kitchen of a basement appartment. The bathroom is to the north, the living room is east, and the entrance hall is south. There is a leak coming from somewhere, you are standing in 48 cm of water. &#x000A;&#x000A;You can see a green door, a counter and a kitchen cabinet (in which is a can of fish (closed)) here.&#x000A;&#x000A;The water is 48 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-130"/>
+    </children>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">entrance hall&#x000A;You can here the pounding of rain outside. From beneath the front door, cold, muddy water flows down the steps into the basement appartment. The lock on the front door is brass-colored.&#x000A;&#x000A;You can see a front door and a shelf here.&#x000A;&#x000A;The water is 52 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-131"/>
+    </children>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve">open the front door</command>
+    <result xml:space="preserve">You open the front door.&#x000A;&#x000A;The water is 56 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">street&#x000A;You can see a front door here.&#x000A;&#x000A;You made it out of the locked appartment. As you wade into the flooded street you hear a faint sparking sound from the appartment. All of a sudden a jolt of electricity courses through your body and you collapse into the muddy floodwater. THE END.&#x000A;You made it out of the locked appartment. As you wade into the flooded street, the taby cat jumps onto your shoulders and licks your ear. GAME OVER.&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">open </command>
+    <result xml:space="preserve">What do you want to open?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">cabinet</command>
+    <result xml:space="preserve">There is a flat can of fish in the cabinet, sardines to be exact.&#x000A;&#x000A;The water is 5 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">take fish</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;The water is 6 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">go s</command>
+    <result xml:space="preserve">entrance hall&#x000A;You can here the pounding of rain outside. From beneath the front door, cold, muddy water flows down the steps into the basement appartment. The lock on the front door is brass-colored.&#x000A;&#x000A;You can see a front door and a shelf (on which is a pocket knife) here.&#x000A;&#x000A;The water is 7 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">take knige</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;The water is 8 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">unlock can with knife</command>
+    <result xml:space="preserve">There are sardines in the can&#x000A;The water is 9 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a sardines&#x000A;  a pocket knife&#x000A;  a can of fish (closed and locked)&#x000A;&#x000A;The water is 10 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-93"/>
+    </children>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve">go n</command>
+    <result xml:space="preserve">kitchen&#x000A;The kitchen of a basement appartment. The bathroom is to the north, the living room is east, and the entrance hall is south. There is muffled whirring sound coming from the green bathroom door. &#x000A;&#x000A;You can see a green door, a counter and a kitchen cabinet (empty) here.&#x000A;&#x000A;The water is 11 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">go e</command>
+    <result xml:space="preserve">living room&#x000A;From one of the couches, an orange taby blearily opens one eye and stares at you reproachfully&#x000A;&#x000A;You can see a couch (on which is a cat) here.&#x000A;&#x000A;The water is 12 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-95"/>
+    </children>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">ask cat for key</command>
+    <result xml:space="preserve">The cat wriggles away, preventing you from unhooking the silver key from its colar. Perhaps some food would keep it still long enough to take the key...&#x000A;&#x000A;The water is 13 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-96"/>
+    </children>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve">give sardines to cat</command>
+    <result xml:space="preserve">The cat meows hungrily and starts to eat up the sardines from your handAs you unhook the silver key from the collar, you hear the muffled hair dryer in the bathroom and feel the water creeping around your knees&#x000A;The water is 20 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-97"/>
+    </children>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve">go w</command>
+    <result xml:space="preserve">kitchen&#x000A;The kitchen of a basement appartment. The bathroom is to the north, the living room is east, and the entrance hall is south. There is muffled whirring sound coming from the green bathroom door. &#x000A;&#x000A;You can see a green door, a counter and a kitchen cabinet (empty) here.&#x000A;&#x000A;The water is 21 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">go n</command>
+    <result xml:space="preserve">(first opening the green door)&#x000A;It seems to be locked.&#x000A;&#x000A;The water is 22 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">unlock with silver key</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a silver key&#x000A;  a pocket knife&#x000A;  a can of fish (closed and locked)&#x000A;&#x000A;The water is 23 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">unlock green door</command>
+    <result xml:space="preserve">What do you want to unlock the green door with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">silver key</command>
+    <result xml:space="preserve">You unlock the green door.&#x000A;&#x000A;The water is 24 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">go n</command>
+    <result xml:space="preserve">(first opening the green door)&#x000A;You can't, since the green door leads nowhere.&#x000A;&#x000A;The water is 25 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">There is a flat can of fish in the cabinet, sardines to be exact.&#x000A;&#x000A;The water is 5 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-78"/>
+      <child nodeId="node-53"/>
+      <child nodeId="node-49"/>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">take</command>
+    <result xml:space="preserve">What do you want to take?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-79"/>
+    </children>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">fish</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;The water is 6 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-80"/>
+    </children>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">go s</command>
+    <result xml:space="preserve">entrance hall&#x000A;You can here the pounding of rain outside. From beneath the front door, cold, muddy water flows down the steps into the basement appartment. The lock on the front door is brass-colored.&#x000A;&#x000A;You can see a front door and a shelf (on which is a pocket knife) here.&#x000A;&#x000A;The water is 7 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">take</command>
+    <result xml:space="preserve">What do you want to take?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;The water is 8 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">open can</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;The water is 9 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">unlock can with knife</command>
+    <result xml:space="preserve">You unlock the can of fish.&#x000A;&#x000A;The water is 10 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">take can of fish</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;The water is 6 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">go s</command>
+    <result xml:space="preserve">entrance hall&#x000A;You can here the pounding of rain outside. From beneath the front door, cold, muddy water flows down the steps into the basement appartment. The lock on the front door is brass-colored.&#x000A;&#x000A;You can see a front door and a shelf (on which is a pocket knife) here.&#x000A;&#x000A;The water is 7 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">go n</command>
+    <result xml:space="preserve">kitchen&#x000A;The kitchen of a basement appartment. The bathroom is to the north, the living room is east, and the entrance hall is south. There is muffled whirring sound coming from the green bathroom door. &#x000A;&#x000A;You can see a green door, a counter and a kitchen cabinet (empty) here.&#x000A;&#x000A;The water is 8 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">go e</command>
+    <result xml:space="preserve">living room&#x000A;From one of the couches, an orange taby blearily opens one eye and stares at you reproachfully&#x000A;&#x000A;You can see a couch (on which is a cat) here.&#x000A;&#x000A;The water is 9 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">talk to cat</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">x cat</command>
+    <result xml:space="preserve">Around the cat's collar dangles a silver key.&#x000A;&#x000A;The water is 10 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">take silver key</command>
+    <result xml:space="preserve">That seems to belong to the cat.&#x000A;&#x000A;The water is 11 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">ask cat for key</command>
+    <result xml:space="preserve">The cat wriggles away, preventing you from unhooking the silver key from its colar. Perhaps some food would keep it still long enough to take the key...&#x000A;&#x000A;The water is 12 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">unlock cabinet</command>
+    <result xml:space="preserve">What do you want to unlock the cabinet with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">x cabinet</command>
+    <result xml:space="preserve">You see nothing special about the cabinet.&#x000A;&#x000A;The water is 6 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">x cabinet</command>
+    <result xml:space="preserve">In the kitchen cabinet is a can of fish.&#x000A;&#x000A;The water is 6 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">take can of fish</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;The water is 7 cm high.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">open dor with screwdriver</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-4"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">pick up screwdriver</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the screwdriver)&#x000A;You unlock the green door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-7"/>
+    </children>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open the green door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">then what?</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">i beg yours</command>
+    <result xml:space="preserve">I only understood you as far as wanting to take inventory.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">pick up the screwdriver</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">kiss the screwdrivere</command>
+    <result xml:space="preserve">You can only do that to something animate.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">look under counter</command>
+    <result xml:space="preserve">You find nothing of interest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">break lock</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">jam screwdriver into door</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">contemplate life</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">think hard</command>
+    <result xml:space="preserve">I only understood you as far as wanting to think.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">take off handle</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">put screwdriver into door</command>
+    <result xml:space="preserve">That can't contain things.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">open door with screwdriver</command>
+    <result xml:space="preserve">That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">take screwdriver</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the screwdriver)&#x000A;That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">test me</command>
+    <result xml:space="preserve"></result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>
